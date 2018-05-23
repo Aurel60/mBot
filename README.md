@@ -1,4 +1,4 @@
-# mBot
+# Robot mBot
 Programme arduino pour le robot mBot disposant de plusieurs modes (contrôle manuel, évitement d'obstacles et suiveur de ligne)
 
 Fonctionnalités :
