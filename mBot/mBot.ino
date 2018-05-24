@@ -26,7 +26,7 @@ void loop()
 {
   distance = ultraSensor.distanceCm(); //distance séparant le robot d'un obstacle en cm
   if (distance<=7 and not(obstacle)) {obstacle=TRUE; dels(255);}
-  else if (distance>7 and obstacle) {obstacle=FALSE; dels(0);}
+  else if (distance>7 and obstacle and mode!='B') {obstacle=FALSE; dels(0);}
   if (ir.keyPressed(69)) {mode='A'; buzzer.tone(2000, 50); dels(0);} //si la touche 'A' est pressée alors le mode 'A' est sélectionné 
   if (ir.keyPressed(70)) {mode='B'; buzzer.tone(2000, 50);} //si la touche 'B' est pressée alors le mode 'B' est sélectionné 
   if (ir.keyPressed(71)) {mode='C'; buzzer.tone(2000, 50); dels(0);} //si la touche 'C' est pressée alors le mode 'C' est sélectionné 
@@ -95,4 +95,5 @@ void dels(int X)
     led.setColorAt(0,X,0,0);
     led.setColorAt(1,X,0,0);
     led.show();
+}
 }
