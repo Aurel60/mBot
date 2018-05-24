@@ -9,6 +9,7 @@ Fonctionnalités :
   	-mode C : le robot suit une ligne grâce à deux capteurs de ligne
   	-mode R (réglage) : permet de choisir la vitesse voulue grâce aux chiffres de la télécommande
 	Ces différents modes sont accessibles avec la télécommande IR respectivement via les touches A, B, C et engrenage
+Vidéo de démonstration : https://youtu.be/kBU_NPyRwXA
 
 Licence MIT / MIT License
 
