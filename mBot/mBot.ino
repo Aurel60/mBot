@@ -42,7 +42,7 @@ void loop()
   } 
   else if (mode=='B') //mode 'B' ou évitement d'obstacles
   {
-    if ((distance > 20 and obstacle==FALSE) or distance > 40) //s'il la distance est supéreure à 20 cm et qu'il n'y avait pas d'obstacle, ou si la distance est supérieure à 40 cm
+    if ((distance > 20 and obstacle==FALSE) or distance > 40) //si la distance est supérieure à 20 cm et qu'il n'y avait pas d'obstacle, ou si la distance est supérieure à 40 cm
     {
       if (obstacle){delay(50000/vitesse); dels(0);} //laisse le robot tourner lorsqu'il y avait un obstacle (la durée dépend de la vitesse)
       deplacement(0); //avancer
