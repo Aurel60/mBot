@@ -12,4 +12,4 @@ Fonctionnalités :
 
 Licence MIT / MIT License
 
-Copyright (c) 2018 Aurélien L, Valentin F, Evann V
+Copyright (c) 2018 Aurélien Lurois, Valentin Flouquet, Evann Vidon
